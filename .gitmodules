@@ -1,0 +1,3 @@
+[submodule "wordpress/mu-plugins/wp-cli-doctor-command"]
+	path = wordpress/mu-plugins/wp-cli-doctor-command
+	url = https://github.com/wp-cli/doctor-command.git
