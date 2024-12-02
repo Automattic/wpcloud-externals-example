@@ -28,31 +28,32 @@ Example outline of WP Cloud externals.
 
 #### Restrictions
 
-The following may not be included in your externals.
+The following may not be included in your externals. Refrain from using `atomic` or `wpcloud` in file names.
 
-- scripts/at-wpcli-config.php
-- scripts/cache-control.php
-- scripts/env.php
-- wordpress/plugins/akismet
-- wordpress/plugins/jetpack
-- wordpress/drop-ins/advanced-cache.php
-- wordpress/drop-ins/object-cache.php
-- wordpress/mu-plugins/atomic.php
-- usr/local/bin/exec2json
-- usr/local/bin/php
-- usr/local/bin/wp
-- usr/local/bin/wp-cli
-- usr/local/bin/wpe
-- usr/local/bin/wps
-- wordpress/mu-plugins/atomic-.*
-- wordpress/drop-ins/atomic-.*
-- wordpress/plugins/atomic-.*
-- wordpress/themes/atomic-.*
-- scripts/atomic-.*
-- usr/local/bin/atomic-.*
-- wordpress/mu-plugins/wpcloud-.*
-- wordpress/drop-ins/wpcloud-.*
-- wordpress/plugins/wpcloud-.*
-- wordpress/themes/wpcloud-.*
-- scripts/wpcloud-.*
-- usr/local/bin/wpcloud-.*
+- `scripts/at-wpcli-config.php`
+- `scripts/atomic-.*`
+- `scripts/cache-control.php`
+- `scripts/env.php`
+- `scripts/wpcloud-.*`
+- `usr/local/bin/atomic-.*`
+- `usr/local/bin/exec2json`
+- `usr/local/bin/php`
+- `usr/local/bin/wp`
+- `usr/local/bin/wp-cli`
+- `usr/local/bin/wpcloud-.*`
+- `usr/local/bin/wpe`
+- `usr/local/bin/wps`
+- `wordpress/drop-ins/advanced-cache.php`
+- `wordpress/drop-ins/atomic-.*`
+- `wordpress/drop-ins/object-cache.php`
+- `wordpress/drop-ins/wpcloud-.*`
+- `wordpress/mu-plugins/atomic.php`
+- `wordpress/mu-plugins/atomic-.*`
+- `wordpress/mu-plugins/wpcloud-.*`
+- `wordpress/plugins/akismet`
+- `wordpress/plugins/atomic-.*`
+- `wordpress/plugins/jetpack`
+- `wordpress/plugins/wpcloud-.*`
+- `wordpress/themes/atomic-.*`
+- `wordpress/themes/wpcloud-.*`
+
